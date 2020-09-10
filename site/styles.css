@@ -84,11 +84,6 @@ a{
 	color: black;
 }
 
-nav.navbar {
-    border: 2px;
-    color:red;
-}
-
 .content{
 	font-family: 'allam';
 	color:#Ece4ab;
@@ -105,7 +100,9 @@ nav.navbar {
 	margin-left:1%;
 	float: left;
 }
-
+.nav{
+		display:none;
+	}
 }
 
 @media (min-width: 768px) and (max-width:991px){
@@ -122,6 +119,9 @@ nav.navbar {
 	margin-left: 1%;
 	float: left;
 }
+	.nav{
+		display:none;
+	}
 }
 
 @media (max-width: 767px){
@@ -130,12 +130,5 @@ nav.navbar {
 	margin-right:5%; 
 	margin-left:5%;
 	float: left;
-}
-.navbar-toggler .icon-bar{
-	background-color: red;
-	display:inline-block;
-	background-color: #cccccc;
-	border-radius: 1px;
-	border-color: black;
 }
 }
